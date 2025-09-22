@@ -93,8 +93,8 @@ public class Unit7 {
     // DO NOT use the Collections.shuffle() or other methods beyond size(), add(), get(), set(), and remove().
     public static void shuffleList(ArrayList<Integer> list) {
         // TODO: Implement this method
-    	int shift1=(int)(Math.random()*list.size());
-    	int shift2=(int)(Math.random()*list.size());
+    	int shift1=(int)(Math.random()*list.size())+1;
+    	int shift2=(int)(Math.random()*list.size())+1;
     	while (shift2==shift1) {
     		shift2=(int)(Math.random()*list.size());
     	}
